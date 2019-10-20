@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class NeuralNetwork(object):
     def __init__(self, input_nodes, hidden_nodes, output_nodes, learning_rate):
         # Set number of nodes in input, hidden and output layers.
@@ -130,7 +129,7 @@ class NeuralNetwork(object):
         hidden_inputs =  np.dot(features, self.weights_input_to_hidden)
         hidden_outputs = self.activation_function(hidden_inputs)
         
-        # TODO: Output layer - Replace these values with the appropriate calculations.
+        #Output layer - Replace these values with the appropriate calculations.
         final_inputs = np.dot(hidden_outputs, self.weights_hidden_to_output)
         final_outputs = final_inputs 
         
