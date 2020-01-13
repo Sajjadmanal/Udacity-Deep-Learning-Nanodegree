@@ -34,6 +34,6 @@ conda install pytorch -c pytorch
 pip install torchvision
 ```
 
-- Install a few required pip packages, which are specified in the requirements text file.
+- Install a few required pip packages which are specified in the requirements text file.
 
 `pip install -r requirements.txt`
