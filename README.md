@@ -7,6 +7,6 @@ Project-2: Dog Breed Classification
 
 Project-3: Tv Script Generation
 
-Project-4: Face-Generation
+Project-4: Face Generation
 
 Project-5: Sentiment Analysis - Sagemaker Deployment
